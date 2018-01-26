@@ -2,7 +2,6 @@
 #without having to close it at the end
 
 with open('example.txt', 'w+') as file:
-    print(file)
     content=file.readlines()
     print(content)
 
